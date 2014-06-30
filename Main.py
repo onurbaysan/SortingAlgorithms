@@ -1,17 +1,23 @@
 __author__ = 'stall10n'
 
 import time
+import random
 import  InsertionSort
 import SelectionSort
+import ShellSort
 
 
-arr = [13, 4, 2, 7, 20, 1, 5, 9, 0, 3]
+arr = []
 
-print  arr
+for i in range(0, 10000):
+    arr.append(random.randint(0, 100000))
+
 
 current = time.time()
-InsertionSort.Sort(arr)
+
+#InsertionSort.Sort(arr)
 #SelectionSort.Sort(arr)
+ShellSort.Sort(arr)
 
 print 'Elapsed Time: ' + str(time.time()-current) + ' sec'
 

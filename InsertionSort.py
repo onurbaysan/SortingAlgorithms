@@ -18,4 +18,3 @@ def Sort(arr):
             else:
                 break
 
-    print arr

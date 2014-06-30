@@ -25,4 +25,3 @@ def Sort(arr):
 
         arr[i], arr[min] = arr[min], arr[i]
 
-    print arr
