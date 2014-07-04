@@ -10,7 +10,7 @@ def ShufflePre(arr):
         r = random.randint(0, i)
         arr[i], arr[r] = arr[r], arr[i]
 
-    print arr
+    print(arr)
 
 
 # Shuffling the remaining part of the list
@@ -21,4 +21,4 @@ def ShufflePost(arr):
         r = random.randint(i, length_of_arr-1)
         arr[i], arr[r] = arr[r], arr[i]
 
-    print arr
+    print(arr)

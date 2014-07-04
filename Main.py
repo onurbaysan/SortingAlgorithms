@@ -13,7 +13,7 @@ for i in range(0, 10):
     arr.append(random.randint(0, 50))
 
 # Initial array
-print arr
+print(arr)
 current = time.time()
 
 # Shuffled array
@@ -24,8 +24,8 @@ Shuffling.ShufflePost(arr)
 ShellSort.Sort(arr)
 
 # Sorted array
-print arr
+print(arr)
 
-print 'Elapsed Time: ' + str(time.time()-current) + ' sec'
+print('Elapsed Time: ' + str(time.time()-current) + ' sec')
 
 
